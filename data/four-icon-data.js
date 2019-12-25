@@ -1,19 +1,19 @@
 let iconList_local = [
       {
-        iconTitle: "政务资讯",
-        iconUrl: "/images/index-four-icon/zhengwu.png"
+        iconTitle: "专栏课程",
+        iconUrl: "/images/index-four-icon/1.png"
       },
       {
-        iconTitle: "办事指南",
-        iconUrl: "/images/index-four-icon/banshizhinan.png",
+        iconTitle: "单品课程",
+        iconUrl: "/images/index-four-icon/2.png",
       },
       {
-        iconTitle: "办事大厅",
-        iconUrl: "/images/index-four-icon/banshidating.png",
+        iconTitle: "经典微课",
+        iconUrl: "/images/index-four-icon/3.png",
       },
       {
-        iconTitle: "办事攻略",
-        iconUrl: "/images/index-four-icon/gonglue.png"
+        iconTitle: "精选文章",
+        iconUrl: "/images/index-four-icon/4.png"
       },
     ]
 
