@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shenghuo/shenghuo",
+    "pages/bianmin/bianmin",
+    "pages/huangye/huangye",
+    "pages/myself/myself",
+    "pages/index/HotNewsDetail/HotNewsDetail",
+    "pages/index/temp/temp"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#302f34",
+    "navigationBarTitleText": "人民的公仆",
+    "navigationBarTextStyle": "white",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#abadbb",
+    "selectedColor": "#0164a6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tab/shouye1.png",
+        "selectedIconPath": "images/tab/shouye.png"
+      },
+      {
+        "pagePath": "pages/huangye/huangye",
+        "text": "消息",
+        "iconPath": "images/tab/huangye.png",
+        "selectedIconPath": "images/tab/huangye_selected.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "我的",
+        "iconPath": "images/tab/me.png",
+        "selectedIconPath": "images/tab/me_selected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "sitemapLocation": "sitemap.json"
+}
