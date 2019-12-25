@@ -10,8 +10,8 @@
     "pages/index/temp/temp"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#302f34",
-    "navigationBarTitleText": "人民的公仆",
+    "navigationBarBackgroundColor": "#3385ff",
+    "navigationBarTitleText": "心理",
     "navigationBarTextStyle": "white",
     "backgroundTextStyle": "dark",
     "enablePullDownRefresh": true
