@@ -1,8 +1,111 @@
-<view>
-  <text>{{nation}}</text>
-  <text>{{province}}</text>
-  <text>{{city}}</text>
-  <text>{{district}}</text>
-  <text>{{street}}</text>
-  <text>{{street_number}}</text>
+<view class="data">
+ 
+  <view class="left">
+ 
+    <view class="img">
+ 
+      <image src="/images/huangye/touxiang.jpg"></image>
+ 
+    </view>
+ 
+  </view>
+ 
+
+ 
+  <view class="right">
+ 
+    <text class="title">健康推荐</text>
+ 
+    <text class="content">两年180课时+，精神分析理论+实操+案例解析连续系统培训课程</text>
+ 
+    <text class="time">1小时前</text>
+ 
+  </view>
+ 
+
+ 
+</view>
+ 
+<view class="data">
+ 
+  <view class="left">
+ 
+    <view class="img">
+ 
+      <image src="/images/huangye/touxiang.jpg"></image>
+ 
+    </view>
+ 
+  </view>
+ 
+
+ 
+  <view class="right">
+ 
+    <text class="title">点击加入</text>
+ 
+    <text class="content">180+课时精神分析理论+实操+案例解析连续系统培训课程原价：3980元/人3人团购价：1280元/人</text>
+ 
+    <text class="time">3小时前</text>
+ 
+  </view>
+ 
+
+ 
+</view>
+ 
+<view class="data">
+ 
+  <view class="left">
+ 
+    <view class="img">
+ 
+      <image src="/images/huangye/touxiang.jpg"></image>
+ 
+    </view>
+ 
+  </view>
+ 
+
+ 
+  <view class="right">
+ 
+    <text class="title">与经典对话</text>
+ 
+    <text class="content">经典、客体、自体+主体间心智化+依恋、神经科学</text>
+ 
+    <text class="time">7小时前</text>
+ 
+  </view>
+ 
+
+ 
+</view>
+ 
+<view class="data">
+ 
+  <view class="left">
+ 
+    <view class="img">
+ 
+      <image src="/images/huangye/touxiang.jpg"></image>
+ 
+    </view>
+ 
+  </view>
+ 
+
+ 
+  <view class="right">
+ 
+    <text class="title">【PSY心理程】</text>
+ 
+    <text class="content">王浩威、张沛超、徐钧、张达人+李英、宋文里、周励志、彭荣邦+这些老师与你一起温故而知新</text>
+ 
+    <text class="time">15小时前</text>
+ 
+  </view>
+ 
+
+ 
 </view>

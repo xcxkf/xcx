@@ -35,46 +35,46 @@ Page({
   loadCity: function (longitude, latitude) {
     var that = this
 
-    wx.request({
+    // wx.request({
 
-      url: 'http://apis.map.qq.com/ws/geocoder/v1/?location=' + latitude + ',' + longitude + '&key=' + TENCENT_KEY,  
-      //url: 'https://api.map.baidu.com/geocoder/v2/?ak=0FuoX30MFf7YMrdS5Wi9GGAcHBblKDuu&callback=?&location=' + latitude + ',' + longitude + '&output=json',
+    //   url: 'http://apis.map.qq.com/ws/geocoder/v1/?location=' + latitude + ',' + longitude + '&key=' + TENCENT_KEY,  
+    //   //url: 'https://api.map.baidu.com/geocoder/v2/?ak=0FuoX30MFf7YMrdS5Wi9GGAcHBblKDuu&callback=?&location=' + latitude + ',' + longitude + '&output=json',
       
-      data: {},
-      method: 'GET',
-      header: {
-        'Content-Type': 'application/json'
-      },
-      success: function (res) {
-        // success  
-        console.log(res);
+    //   data: {},
+    //   method: 'GET',
+    //   header: {
+    //     'Content-Type': 'application/json'
+    //   },
+    //   success: function (res) {
+    //     // success  
+    //     console.log(res);
 
-        that.setData({
-          nation: res.data.result.address_component.nation,
-          province: res.data.result.address_component.province,
-          city: res.data.result.address_component.city,
-          district: res.data.result.address_component.district,
-          street: res.data.result.address_component.street,
-          street_number: res.data.result.address_component.street_number
-        })
+    //     that.setData({
+    //       nation: res.data.result.address_component.nation,
+    //       province: res.data.result.address_component.province,
+    //       city: res.data.result.address_component.city,
+    //       district: res.data.result.address_component.district,
+    //       street: res.data.result.address_component.street,
+    //       street_number: res.data.result.address_component.street_number
+    //     })
 
-        console.log(that.data.nation,that.data.province,that.data.city)
-        // var city = res.data.result.addressComponent.city;
-        // that.setData({ city: city });
-      },
-      fail: function () {
-        // fail  
-      },
-      complete: function () {
-        // complete  
-      }
-    })
+    //     console.log(that.data.nation,that.data.province,that.data.city)
+    //     // var city = res.data.result.addressComponent.city;
+    //     // that.setData({ city: city });
+    //   },
+    //   fail: function () {
+    //     // fail  
+    //   },
+    //   complete: function () {
+    //     // complete  
+    //   }
+    // })
   },
 
 onLoad: function (options) {
   // 页面初始化 options为页面跳转所带来的参数
   //获取定位
-  this.getLocation()
+  //this.getLocation()
 },
 onReady: function () {
   // 页面渲染完成
