@@ -13,18 +13,33 @@
   </swiper>
   <view class="iconList-container">
     <block wx:for="{{iconList}}" wx:for-item="item" wx:for-index="idx">
-      <view class="iconList-container-block" catchtap="tapGridCell" data-icon-id="{{idx}}" >
+      <view class="iconList-container-block" catchtap="tapGridCell" data-icon-id="{{idx}}">
         <template is="GridIconCell" data="{{...item}}"></template>
       </view>
     </block>
   </view>
   <view class="spaceSeparateView"></view>
   <view class="yaowen-container">
-      <text class="yaowen">要闻</text>
+    <text class="yaowen">要闻</text>
   </view>
   <block wx:for="{{list}}" wx:for-item="item">
-    <view class="hotNewsList-container" catchtap="tapHotNewsCell">
-      <template is="HotNewsCell" data="{{...item}}"></template>
+    <view bindtap="tapHotNewsCell">
+      <view class="data">
+        <view class="left">
+          <view class="img">
+            <image src="{{item.img}}"></image>
+          </view>
+        </view>
+
+        <view class="right">
+          <text class="title">{{item.tittle}}</text>
+          <text class="content">{{item.content}}</text>
+          <text class="time"> 
+        <text class="date">收听：{{item.st}}</text>
+          <text class="price1">{{item.time}}</text>
+          </text>
+        </view>
+      </view>
     </view>
   </block>
 </view>
