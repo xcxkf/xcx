@@ -7,7 +7,17 @@
     "pages/huangye/huangye",
     "pages/myself/myself",
     "pages/index/HotNewsDetail/HotNewsDetail",
-    "pages/index/temp/temp"
+    "pages/index/temp/temp",
+    "pages/2048/2048",
+    "pages/index/temp2/temp",
+    "pages/index/temp3/temp",
+    "pages/index/temp4/temp",
+    "pages/account/account",
+    "pages/account/account-info",
+    "pages/account/feedback",
+    "pages/account/collection",
+    "pages/account/attention",
+    "pages/account/settings"
   ],
   "window": {
     "navigationBarBackgroundColor": "#3385ff",
@@ -33,7 +43,7 @@
         "selectedIconPath": "images/tab/huangye_selected.png"
       },
       {
-        "pagePath": "pages/myself/myself",
+        "pagePath": "pages/account/account",
         "text": "我的",
         "iconPath": "images/tab/me.png",
         "selectedIconPath": "images/tab/me_selected.png"

@@ -7,7 +7,17 @@ const iconList = require('../../data/four-icon-data')
 var pageNo = 0;
 Page({
   data: {
-    list: [],
+    list: [
+      {
+        iconTitle: "专栏课程",
+        iconUrl: "/images/index-four-icon/1.png"
+      },
+      {
+        iconTitle: "单品课程",
+        iconUrl: "/images/index-four-icon/2.png",
+      },
+      
+    ],
   },
 
   /** 跳转（政务资讯、办事指南、办事大厅、办事攻略） */
@@ -50,62 +60,62 @@ Page({
   },
 
   /** 下拉刷新 */
-  loadNewData: function () {
-    pageNo = 1;
-    this.requestData()
+   loadNewData: function () {
+     pageNo = 1;
+     this.requestData()
 
-  },
+   },
 
-  loadNewData_NextPage: function () {
-    pageNo += 1;
-    this.requestData();
-  },
+  // loadNewData_NextPage: function () {
+  //   pageNo += 1;
+  //   this.requestData();
+  // },
 
-  requestData: function () {
-    var that = this
+  // requestData: function () {
+  //   var that = this
 
-    wx.request({
-      url: config.GET_HOT_NEWS,
-      data: {
-        "system": "02",
-        "tagId": "1",
-        "accessToken": "",
-        "scopeAddressCode": "",
-        "key": "",
-        "systemVersion": "10.3.1",
-        "imei": "A902EA47-B1B2-452A-96FB-4C7BCCBB149C",
-        "currentVersion": "3.1.6",
-        "sig": "",
-        "pageNo": pageNo,
-        "model": "iPhone 6s Plus (A1699)",
-        "pageSize": "20"
-      },
-      method: 'POST', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
-      header: { 'content-type': 'application/json' }, // 设置请求的 header
-      success: function (res) {
-        // success
-        if (pageNo == 1) {
-          that.setData({ list: res.data.data.list })
+  //   wx.request({
+  //     url: config.GET_HOT_NEWS,
+  //     data: {
+  //       "system": "02",
+  //       "tagId": "1",
+  //       "accessToken": "",
+  //       "scopeAddressCode": "",
+  //       "key": "",
+  //       "systemVersion": "10.3.1",
+  //       "imei": "A902EA47-B1B2-452A-96FB-4C7BCCBB149C",
+  //       "currentVersion": "3.1.6",
+  //       "sig": "",
+  //       "pageNo": pageNo,
+  //       "model": "iPhone 6s Plus (A1699)",
+  //       "pageSize": "20"
+  //     },
+  //     method: 'POST', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
+  //     header: { 'content-type': 'application/json' }, // 设置请求的 header
+  //     success: function (res) {
+  //       // success
+  //       if (pageNo == 1) {
+  //         that.setData({ list: res.data.data.list })
           
-        }else {
-          that.setData({ list: that.data.list.concat(res.data.data.list) })
+  //       }else {
+  //         that.setData({ list: that.data.list.concat(res.data.data.list) })
 
-        }
+  //       }
 
-        console.log(that.data.list)
+  //       console.log(that.data.list)
         
-      },
-      fail: function (res) {
-        // fail
-        pageNo--;
-      },
-      complete: function (res) {
-        // complete
-        wx.stopPullDownRefresh()
-      }
-    })
+  //     },
+  //     fail: function (res) {
+  //       // fail
+  //       pageNo--;
+  //     },
+  //     complete: function (res) {
+  //       // complete
+  //       wx.stopPullDownRefresh()
+  //     }
+  //   })
 
-  },
+  // },
 
 
   onLoad: function () {
@@ -115,13 +125,6 @@ Page({
     this.setData(iconList)
     this.loadNewData();
 
-    //调用应用实例的方法获取全局数据
-    // app.getUserInfo(function(userInfo){
-    //   //更新数据
-    //   that.setData({
-    //     userInfo:userInfo
-    //   })
-    // })
   },
   onSwiperTap: function (event) {
     // target 和currentTarget

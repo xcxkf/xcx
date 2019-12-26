@@ -34,5 +34,11 @@ Page({
   },
   onUnload:function(){
     // 页面关闭
-  }
+  },
+  // 点击事件
+  search: function (e) {
+    wx.navigateTo({
+      url: '/pages/2048/2048'
+    });
+  },
 })
