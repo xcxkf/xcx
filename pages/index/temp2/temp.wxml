@@ -1,5 +1,197 @@
+<navigator to="">
+    <view class="data">
+    
+      <view class="left">
+    
+        <view class="img">
+    
+          <image src="https://ossimg.xinli001.com/20191224/d760c81c2a2584d15f7a0f47bc2bc0d9.jpeg?x-oss-process=image/quality,Q_80"></image>
+    
+        </view>
+    
+      </view>
+    
 
-<!--pages/index/temp/temp.wxml-->
-<view class="classname">
-  <text>跳转页面测试</text>
-</view>
+    
+      <view class="right">
+    
+        <text class="title">薛伟心里微课101集：道高一尺魔高一丈之101迎难而上</text>
+    
+        <text class="content">对面坐着的这个人那么的急迫</text>
+    
+        <text class="time"> 
+              <text class="date">已更新101期</text>
+              <text class="price">￥499</text>
+        </text>
+    
+      </view>
+    
+
+    
+    </view>
+ </navigator>
+
+ <navigator to="">
+    <view class="data">
+    
+      <view class="left">
+    
+        <view class="img">
+    
+          <image src="https://ossimg.xinli001.com/20191225/629785f97b22d7f61186eecff545827c.jpeg?x-oss-process=image/quality,Q_80"></image>
+    
+        </view>
+    
+      </view>
+    
+
+    
+      <view class="right">
+    
+        <text class="title">第二年总105主课B27【精神分析基础及其在不同文化间的激荡】</text>
+    
+        <text class="content"></text>
+    
+        <text class="time"> 
+              <text class="date">收听：191</text>
+              <text class="price1">05-26 14:00</text>
+        </text>
+    
+      </view>
+    
+
+    
+    </view>
+ </navigator>
+
+ <navigator to="">
+    <view class="data">
+    
+      <view class="left">
+    
+        <view class="img">
+    
+          <image src="/https://ossimg.xinli001.com/20191217/c7d93e2b18eef843255964d32e33c4a8.jpeg?x-oss-process=image/quality,Q_80"></image>
+    
+        </view>
+    
+      </view>
+    
+
+    
+      <view class="right">
+    
+        <text class="title">刘丹家庭治疗网课02</text>
+    
+        <text class="content"></text>
+    
+        <text class="time"> 
+              <text class="date">收听：1921</text>
+              <text class="price1">05-23 14:00</text>
+        </text>
+    
+      </view>
+    
+
+    
+    </view>
+ </navigator>
+
+ <navigator to="">
+    <view class="data">
+    
+      <view class="left">
+    
+        <view class="img">
+    
+          <image src="https://ossimg.xinli001.com/20191211/1e8910f42d13234070368d47b64d34cf.jpeg?x-oss-process=image/quality,Q_80"></image>
+    
+        </view>
+    
+      </view>
+    
+
+    
+      <view class="right">
+    
+        <text class="title">【张海音十次微课】让个案概念化落实到处</text>
+    
+        <text class="content">来访者脱落，难道就真的没有办法了吗？听听张海音带你进入不一样的世界</text>
+    
+        <text class="time"> 
+              <text class="date">已更新20期</text>
+              <text class="price">￥1200</text>
+        </text>
+    
+      </view>
+    
+
+    
+    </view>
+ </navigator>
+
+ <navigator to="">
+    <view class="data">
+    
+      <view class="left">
+    
+        <view class="img">
+    
+          <image src="https://ossimg.xinli001.com/20191202/e91eef2ffd7408b55598928e2c31eedf.jpeg?x-oss-process=image/quality,Q_80"></image>
+    
+        </view>
+    
+      </view>
+    
+
+    
+      <view class="right">
+    
+        <text class="title">徐俊：自体心理学理论、技术和临床实操二十讲</text>
+    
+        <text class="content">徐俊：自体心理学20讲</text>
+    
+        <text class="time"> 
+              <text class="date">已更新20期</text>
+              <text class="price">￥599</text>
+        </text>
+    
+      </view>
+    
+
+    
+    </view>
+ </navigator>
+
+ <navigator to="">
+    <view class="data">
+    
+      <view class="left">
+    
+        <view class="img">
+    
+          <image src="https://ossimg.xinli001.com/20191224/d760c81c2a2584d15f7a0f47bc2bc0d9.jpeg?x-oss-process=image/quality,Q_80"></image>
+    
+        </view>
+    
+      </view>
+    
+
+    
+      <view class="right">
+    
+        <text class="title">生命与死亡--在历史、文化和迁移中</text>
+    
+        <text class="content">课程提供一个看到生与死的角度，从中钱探索：我们究竟生活在一个什么样世界</text>
+    
+        <text class="time"> 
+              <text class="date">收听：1921</text>
+              <text class="price1">05-23 14:00</text>
+        </text>
+    
+      </view>
+    
+
+    
+    </view>
+ </navigator>
