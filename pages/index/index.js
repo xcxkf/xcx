@@ -14,22 +14,32 @@ Page({
   tapGridCell: function (event) {
     switch (event.currentTarget.dataset.iconId) {
       case 0:
-        console.log("点击政务资讯")
+        console.log("点击专栏课程");
+        wx.navigateTo({
+          url: 'temp/temp'
+        });
         break
       case 1:
-        console.log("点击办事指南")
+        console.log("点击单品课程");
+        wx.navigateTo({
+          url: 'temp2/temp'
+        });
         break
       case 2:
-        console.log("点击办事大厅")
+        console.log("点击经典微课");
+        wx.navigateTo({
+          url: 'temp3/temp'
+        });
         break
       case 3:
-        console.log("点击办事攻略")
+        console.log("点击精选文章");
+        wx.navigateTo({
+          url: 'temp4/temp'
+        });
         break
     }
 
-     wx.navigateTo({
-      url: 'temp/temp'
-    })
+   
   },
 
   /** 跳转要闻详情页面 */
