@@ -9,13 +9,34 @@ Page({
   data: {
     list: [
       {
-        iconTitle: "专栏课程",
-        iconUrl: "/images/index-four-icon/1.png"
+        img: "https://ossimg.xinli001.com/20191225/629785f97b22d7f61186eecff545827c.jpeg?x-oss-process=image/quality,Q_80",
+        tittle: "谈边界｜朋友找你借钱，为什么很难拒绝？",
+        content: "在我们所有的关系中，边界都是必不可少的。但是，我们都知道，由于一些原因，它们可能很难设置。通常，我们不知道我们需要什么样的边界",
+         time: "5-15 12:55",
+         st:"128"
       },
       {
-        iconTitle: "单品课程",
-        iconUrl: "/images/index-four-icon/2.png",
+        img: "https://ossimg.xinli001.com/20191202/e91eef2ffd7408b55598928e2c31eedf.jpeg?x-oss-process=image/quality,Q_80",
+        tittle: "人际交往小技巧——树立良好的第一印象！",
+        content: "第一印象（first impression），知觉主体与陌生人第一次接触或交往后的所得印",
+        time: "5-15 12:55",
+        st: "128"
       },
+      {
+        img: "https://ossimg.xinli001.com/20191211/1e8910f42d13234070368d47b64d34cf.jpeg?x-oss-process=image/quality,Q_80",
+        tittle: "3招，教你应对七大姑八大姨的'评判'",
+        content: "当我第一次回到阿肯色州时，有一些关于我的事情不想让其他人知道。我在阿",
+        time: "5-15 12:55",
+        st: "128"
+      },
+      {
+        img: "https://ossimg.xinli001.com/20191225/629785f97b22d7f61186eecff545827c.jpeg?x-oss-process=image/quality,Q_80",
+        tittle: "悄无声息影响他人的7个技巧",
+        content: "年轻的时候，当人们想要影响我们的时候，他们往往会使用奉承和顺从这两招",
+        time: "5-15 12:55",
+        st: "128"
+      },
+     
       
     ],
   },
