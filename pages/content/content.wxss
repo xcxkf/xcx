@@ -1,0 +1,130 @@
+
+.data{
+display: flex;
+
+align-items: center;
+
+padding: 20rpx 0;
+
+}
+.left{
+width: 20%;
+float: left;
+text-align: center;
+visibility: middle;
+}
+.left .img{
+padding-left: 10%;
+width: 110rpx;
+height: 100rpx;
+}
+.left .img image{
+width: 100%;
+height: 100%;
+}
+.right{
+width: 80%;
+float: right
+}
+.right .title{
+display: block;
+color: #666;
+font-size: 30rpx;
+font-weight: bold;
+text-overflow: ellipsis;
+
+overflow: hidden;
+
+white-space: nowrap;
+}
+.right .content{
+display: block;
+font-size: 26rpx;
+margin-top: 10rpx;
+text-overflow: ellipsis;
+
+overflow: hidden;
+
+white-space: nowrap;
+}
+.right .time {
+
+width: 100%;
+display: block;
+
+}
+.right .time .date{
+
+float: left;
+
+font-size: 24rpx;
+color: #999;
+margin: 10rpx 0;
+}
+.right .time .price{
+float: right;
+
+font-size: 24rpx;
+color: rgb(241, 159, 7);
+margin: 10rpx 40rpx;
+}
+.right .time .price1{
+float: right;
+
+font-size: 24rpx;
+color: #999;
+margin: 10rpx 40rpx;
+}
+.nr{
+  margin: 20rpx 20rpx;
+  font-size: 24rpx;
+}
+
+.inp{
+ width: 90%;
+ left: 5%;
+  position: fixed;
+  bottom: 20rpx;
+  font-size: 24rpx;
+}
+.inpp{
+  padding-left: 15rpx;
+  background: #f2f2f2;
+}
+.pages{
+  width: 100%;
+  
+}
+.bg{
+  width: 100%;
+  height: 18rpx;
+  margin: 5rpx;
+  background: #f2f2f2;
+}
+.tit{
+  width: 90%;
+  margin: 20rpx 5%;
+  padding-bottom:20rpx; 
+  border-bottom: 1rpx solid #ccc;
+}
+.audio{
+  padding-top: 30rpx;
+  padding-left: 30rpx;
+  width: 80%;
+  margin: 0 auto;
+ 
+}
+.immm{
+  width: 90%;
+  margin: 0 5%;
+  height: 420rpx;
+  border-bottom: 1px solid #666;
+  box-shadow: 1rpx 12rpx 10rpx #888888;
+  
+}
+.immm .img{
+  margin-top: 40rpx;
+  width: 44%;
+  height: 360rpx;
+  margin-left: 28%
+}

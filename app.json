@@ -17,7 +17,8 @@
     "pages/account/feedback",
     "pages/account/collection",
     "pages/account/attention",
-    "pages/account/settings"
+    "pages/account/settings",
+    "pages/content/content"
   ],
   "window": {
     "navigationBarBackgroundColor": "#3385ff",

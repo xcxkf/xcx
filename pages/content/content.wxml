@@ -1,0 +1,40 @@
+<view class="pages">
+  <view class="immm">
+    <image class="img" src="https://ossimg.xinli001.com/20191225/629785f97b22d7f61186eecff545827c.jpeg?x-oss-process=image/quality,Q_80"></image>
+  </view>
+  <view class="audio">
+    <audio   name="123" author="作者" src="http://m7.music.126.net/20191227232637/36367481593dfabd8e193e561873bf33/ymusic/035c/010e/530c/46b1ddfd1d6d52b4030edfc6952795e2.mp3" id="myAudio" controls loop>
+    </audio>
+  </view>
+  
+  <view class="bg"></view>
+  <view class="tit">
+    <text class="tittle">[译者讲书] 欧文·亚隆 浮生一日</text>
+  </view>
+  <view>
+    <text class="nr">最新评论</text>
+    <view class="nrr">
+      <view class="sss" wx:for="{{list}}" wx:for-item="item">
+        <view class="data">
+          <view class="left">
+            <view class="img">
+              <image src="{{item.img}}"></image>
+            </view>
+          </view>
+          <view class="right">
+            <text class="title">{{item.name}}</text>
+            <text class="content">{{item.content}}</text>
+            <text class="time"> 
+              <text class="date">{{item.time}}</text>
+            </text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="inp">
+    <input type="text" class="inpp" placeholder="发评论" >{{input}}</input>
+    
+  </view>
+</view>

@@ -23,7 +23,7 @@
     <text class="yaowen">要闻</text>
   </view>
   <block wx:for="{{list}}" wx:for-item="item">
-    <view bindtap="tapHotNewsCell">
+    <view bindtap="audio">
       <view class="data">
         <view class="left">
           <view class="img">

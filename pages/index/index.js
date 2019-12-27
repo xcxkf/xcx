@@ -167,6 +167,11 @@ Page({
     
     this.loadNewData_NextPage()
   },
+  audio: function (event) {
+    wx.navigateTo({
+      url: '/pages/content/content'
+    })
+  }
 
 
 })

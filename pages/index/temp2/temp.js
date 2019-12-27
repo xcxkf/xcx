@@ -15,5 +15,11 @@ Page({
   },
   onUnload:function(){
     // 页面关闭
+  },
+  //跳转
+  audio: function (event) {
+    wx.navigateTo({
+      url: '/pages/content/content'
+    })
   }
 })

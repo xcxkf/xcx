@@ -1,4 +1,4 @@
-<navigator to="">
+<view bindtap="audio">
     <view class="data">
     
       <view class="left">
@@ -29,9 +29,9 @@
 
     
     </view>
- </navigator>
+ </view>
 
- <navigator to="">
+ <view bindtap="audio">
     <view class="data">
     
       <view class="left">
@@ -62,9 +62,9 @@
 
     
     </view>
- </navigator>
+ </view>
 
- <navigator to="">
+ <view bindtap="audio">
     <view class="data">
     
       <view class="left">
@@ -95,9 +95,9 @@
 
     
     </view>
- </navigator>
+ </view>
 
- <navigator to="">
+ <view bindtap="audio">
     <view class="data">
     
       <view class="left">
@@ -128,9 +128,9 @@
 
     
     </view>
- </navigator>
+ </view>
 
- <navigator to="">
+ <view bindtap="audio">
     <view class="data">
     
       <view class="left">
@@ -161,9 +161,9 @@
 
     
     </view>
- </navigator>
+ </view>
 
- <navigator to="">
+ <view bindtap="audio">
     <view class="data">
     
       <view class="left">
@@ -194,4 +194,4 @@
 
     
     </view>
- </navigator>
+ </view>
